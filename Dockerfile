@@ -1,3 +1,2 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
-EXPOSE 4080
+COPY index.html /usr/share/nginx/html
